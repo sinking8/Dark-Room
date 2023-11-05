@@ -22,11 +22,11 @@ function App() {
         <div className="container">
           <Story />
 
-          <Feed perfil={perfil} nome="user.name18" localizacao="Em Casa" feed={feed} curtidas="154 curtidas" titulo=" Olha o que eu fiz" comentarios="3 comments"   horario="Há 3 horas"  />
-          <Feed perfil={perfil2} nome="user.name2" localizacao="Restaurante Tudo gostoso" feed={feed2} curtidas="222 curtidas" titulo=" Almoço de hoje, ESQUEÇA 🤤" comentarios="3 comments"   horario="Há 2 horas"  />
-          <Feed perfil={perfil3} nome="user.name5" localizacao="Netflix" feed={feed3} curtidas="30 curtidas" titulo=" Amo essa série! ❤️" comentarios="2 comments"   horario="Há 18 minutos"  />
-          <Feed perfil={perfil4} nome="user.name3" localizacao="Descobre ai bb" feed={feed4} curtidas="491 curtidas" titulo=" 🔥" comentarios="Ver todos os 543 comentários"   horario=""  />
-          <Feed perfil={perfil5} nome="user.name32" localizacao="Twitter" feed={feed5} curtidas="15.249.184 curtidas" titulo=" Comprei o Twitter" comentarios="Ver todos os 23 mil comentários"   horario="Há 19 horas"  />
+          <Feed value="video" perfil={perfil} nome="user.name18" localizacao="Em Casa" feed="https://www.youtube.com/watch?v=IpYJjVw6wjU&ab_channel=fotios" curtidas="154 curtidas" titulo="  beautiful picture" comentarios="3 comments"   horario="Há 3 horas"  />
+          <Feed value="image" perfil={perfil2} nome="user.name2" localizacao="Restaurante Tudo gostoso" feed={feed2} curtidas="222 curtidas" titulo=" delicious 🤤" comentarios="3 comments"   horario="Há 2 horas"  />
+          <Feed value="image" perfil={perfil3} nome="user.name5" localizacao="Netflix" feed={feed3} curtidas="30 curtidas" titulo=" HAHAHAHAH" comentarios="2 comments"   horario="Há 18 minutos"  />
+          <Feed value="image" perfil={perfil4} nome="user.name3" localizacao="Descobre ai bb" feed={feed4} curtidas="491 curtidas" titulo=" 🔥" comentarios="Ver todos os 543 comentários"   horario=""  />
+          <Feed value="image" perfil={perfil5} nome="user.name32" localizacao="Twitter" feed={feed5} curtidas="15.249.184 curtidas" titulo="  ........" comentarios="Ver todos os 23 mil comentários"   horario="Há 19 horas"  />
 
           <Perfil />        
         </div>
