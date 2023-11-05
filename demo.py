@@ -1,33 +1,24 @@
-import cv2
-import pafy
-import matplotlib.pyplot as plt
+import requests
+from gtts import gTTS
+import os 
 
-#video_url = request.get_json()["video_url"]
-video_url = "https://youtu.be/xRwy_rKc7gI?feature=shared"
+import base64 
+# API_URL = "https://api-inference.huggingface.co/models/Salesforce/blip-image-captioning-large"
+# headers = {"Authorization": "Bearer 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"}
 
-# Extracting pafy instance
-video = pafy.new(video_url)
-best = video.getbest(preftype="mp4")
+# def query(filename):
+#     with open(filename, "rb") as f:
+#         data = f.read()
+#     response = requests.post(API_URL, headers=headers, data=data)
+#     print(response.json())
+#     return response.json()
 
-# Open a sample video available in sample-videos
-vcap = cv2.VideoCapture(best.url)
-#if not vcap.isOpened():
-#    print "File Cannot be Opened"
 
-while(True):
-    # Capture frame-by-frame
-    ret, frame = vcap.read()
-    #print cap.isOpened(), ret
-    if frame is not None:
-        # Display the resulting frame
-        cv2.imshow("frame",frame)
-        # Press q to close the video windows before it ends if you want
-        if cv2.waitKey(22) & 0xFF == ord('q'):
-            break
-    else:
-        print("Frame is None")
-        break
-
-# When everything done, release the capture
-vcap.release()
-cv2.destroyAllWindows()
+filename = "demo2.jpeg"
+with open(filename, "rb") as f:
+    print(f.read())
+    data = base64.b64encode(f.read())
+API_URL = "https://flask-production-4f4a.up.railway.app/get_text"
+headers = {"Content-Type": "application/json"}
+response = requests.post(API_URL,headers=headers,json={"img_string":data})
+print(response.json()['text'])
