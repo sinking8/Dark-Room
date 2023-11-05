@@ -1,3 +1,5 @@
+import React, { Component } from "react";
+
 import logo from "./logo.jpg";
 import home from "./imagens/home.png";
 import mensagem from "./imagens/mensagem.png";

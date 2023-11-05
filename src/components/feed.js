@@ -1,3 +1,4 @@
+import React, { Component } from "react";
 import mensagem from "./imagens/mensagem.png";
 import coracao from "./imagens/coracao.png";
 import comenta from "./imagens/comentar.png";

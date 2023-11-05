@@ -1,3 +1,5 @@
+import React, { Component } from "react";
+
 import perfil from "./imagens/perfil.jpg";
 import perfil2 from "./imagens/perfil2.jpg";
 import perfil3 from "./imagens/perfil3.jpg";
@@ -7,6 +9,7 @@ import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
+
 function Perfil() {
   return (
     <>
