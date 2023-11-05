@@ -1,0 +1,138 @@
+.feed{
+    float: left;
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 55%;
+  }
+  
+  .foto1{
+    width: 90%;
+    height: auto;
+    border: 0.1px solid #d3d3d3;
+    border-radius: 7px;
+  }
+  
+  .infomacoes-perfil{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .perfil-feed{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 10px;
+  }
+  
+  .foto-perfil{
+    width: 38px;
+    height: 38px;
+    margin: 11px 10px;
+    border-radius: 50%;
+  }
+  
+  .story-border-feed{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    margin: 10px 0px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: linear-gradient( #c82d8e, #f99d4c);
+  }
+
+  .text-feed{
+    display: flexbox;
+    margin: -50px 0 20px 50px;
+  }
+  
+  .text-feed h1{
+    font-size: 13px;
+    text-align: left;
+    margin-top: -20px;
+    font-weight: 600;
+  }
+  
+  .localizacao{
+    font-size: 12px;
+    text-align: left;
+    font-weight: 400;
+  }
+  
+  .pontos{
+    width: 23px;
+    height: 5px;
+    margin: 25px 15px 0 0;
+    cursor: pointer;
+  }
+  
+  .foto-feed{
+    width: 100%;
+    min-height: 400px;
+    height: auto;
+    max-height: 900px;
+  }
+  
+  .interacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 15px
+  }
+  
+  .interacao img{
+    width: 20px;
+    height: 20px;
+    margin: 5px 10px 5px 5px;
+    cursor: pointer;
+  }
+
+  .informacoes-da-foto p{
+    text-align: left;
+    margin: 8px 25px;
+  }
+  
+  .comentario{font-weight: 100;}
+  
+  .horario{
+    font-weight: 100;
+    font-size: 13px
+  }
+  
+  spam{font-weight: bolder;}
+  
+  .publicar-comentario{
+    width: 100%;
+    margin-bottom: -25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .emoji{
+    width: 25px;
+    height: 25px;
+    margin: 12px 0px 50px 20px;
+  }
+  
+  .comentar{
+    width: 750%;
+    height: 30px;
+    padding-left: 20px;
+    margin: 10px 10px;
+    border: 0;
+    outline: 0;
+  }
+  
+  .publicar{
+    color: blue;
+    cursor: pointer;
+    margin: 20px 20px 0px 20px;
+  }
+  
+  .publicar:hover{color: rgb(72, 72, 224);}

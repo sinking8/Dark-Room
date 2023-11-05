@@ -1,0 +1,81 @@
+@media only screen and (max-width: 1530px){
+  .informacoes{width: 30%;}
+}
+
+@media only screen and (max-width: 1000px){
+    .container{padding: 0 2% 0 10%;}
+  
+    .container-header{
+      width: 90%;
+      margin: 0 10%;
+      padding-bottom: 10px;
+    }
+  
+    .story{
+      width: 100%; 
+      margin-left: 0;
+    }
+  
+    .feed{
+      width: 100%; 
+      margin-left: 0;
+    }
+  
+    .informacoes{display: none;}
+  }
+  
+  @media only screen and (max-width: 763px){
+    .container-header{width: 100%;}
+  
+    .logo{margin-left: 20px;}
+  
+    .barra{display: none;}
+  
+    .links{width: 200px;}
+  
+    .perfil-story{margin: 0px 25px;}
+  
+    .foto-feed{
+      width: 100%;
+      max-height: 300px;
+      min-height: 300px;
+      height: 300px;
+    }
+  
+    .foto-perfil{
+      width: 35px;
+      height: 35px;
+      margin: 14px 10px;
+    }
+  
+    .interacoes{padding: 0px 10px;}
+    
+    .interacoes img{
+      width: 28px;
+      height: 28px;
+    }
+    
+    .foto1 p{
+      text-align: left;
+      margin: 8px 20px;
+    }
+  }
+
+  @media only screen and (max-width: 383px){ 
+    .header-border{display: block;}
+  
+    .logo{
+      margin-left: 70px;
+    }
+  
+    .links{
+      width: 100%;
+      margin-top: 20px;
+      margin-right: 30px;
+      padding-bottom: 20px;
+    }
+
+    .story{ margin-top: 150px;}
+  
+    .perfil-story{margin: 0px 30px;} 
+  }

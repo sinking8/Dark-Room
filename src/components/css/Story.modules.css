@@ -1,0 +1,93 @@
+.story{
+    float: left;
+    margin-left: 60px;
+    margin-top: 100px;
+    width: 55%;
+    position: relative;
+  }
+  
+  .story-container{
+    width: 90%;
+    height: auto;
+    border: 0.1px solid #dddddd;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+    scroll-behavior: smooth;
+  }
+  
+  .story-container::-webkit-scrollbar {
+    width: 10% !important;
+    height: 5px;
+  }
+
+  .buttons{
+    position: absolute;
+    width: 89%;
+    margin-top: 20px;
+    z-index: 7;
+  }
+
+  .button-left{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 0;
+    background-color: #ffffff;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .button-right{   
+    position: absolute;
+    right: 0; 
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .story-container::-webkit-scrollbar-track {background: transparent;}
+  
+  .story-container::-webkit-scrollbar-thumb {
+    background: linear-gradient(90deg, rgba(255,144,0,1), rgba(215,46,146,1));
+    border-radius: 20px;
+  }
+  
+  .perfil-story{
+    width: 10%;
+    margin: 0px 15px;
+  }
+    
+  .story-border{
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    display: flex;
+    margin: 10px 5px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: linear-gradient( #c82d8e, #f99d4c);
+  }  
+  
+  .foto-story{
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .story-container h1{
+    width: 74px;
+    font-size: 13px;
+    margin: -5px 70px 15px auto;
+    font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }

@@ -1,0 +1,166 @@
+.informacoes{
+    padding-top: 35px;
+    width: 16%;
+    max-width: 500px;
+    margin-left: 580px;
+    position: fixed;
+    margin-top: 50px;
+  }
+  
+  .container-informacoes{
+    width: 100%;
+    height: auto;
+    border-radius: 7px;
+    padding-bottom: 10px;
+  }
+  
+  .mudar-perfil{
+    margin-bottom: 20px;
+    margin-left: -25px;
+  }
+  
+  .perfil-informacoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 0px 0px 10px;
+  }
+  
+  .foto-informacoes{
+    width: 55px;
+    height: 55px;
+    margin: 11.5px auto 0px 7px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .container-informacoes h1{
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .perfil-informacoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 10px;
+  }
+  
+  .foto-informacoes{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin: 25px auto 0px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .text-perfil{
+    display: flexbox;
+    margin: -46px 0 20px 68px;
+  }
+  
+  .text-perfil h1{
+    font-size: 13px;
+    text-align: left;
+    margin-top: -20px;
+    font-weight: 600;
+  }
+  
+  .text-perfil p{
+    font-size: 12px;
+    text-align: left;
+    font-weight: 400;
+  }
+  
+  .mudar{
+    color: rgb(0, 119, 255);
+    font-size: 13px;
+    margin: 5px 0 0 0;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  
+  .sugestoes{width: 100%;}
+  
+  .sugestoes-texto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .sugestoes-texto h1, p{
+    cursor: pointer;
+  }
+  
+  .sugestoes-container{
+    margin-bottom: 5px;
+  }
+  
+  .perfil-sugestoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 10px;
+  }
+  
+  .foto-sugestoes{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    margin: auto auto 0px -15px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .text-perfil2{
+    display: flexbox;
+    margin: -35px 0 20px 28px;
+  }
+  
+  .text-perfil2 h1{
+    font-size: 13px;
+    text-align: left;
+    margin-top: -20px;
+    font-weight: 600;
+  }
+  
+  .text-perfil2 p{
+    font-size: 12px;
+    text-align: left;
+    font-weight: 400;
+  }
+  
+  .follow{
+    color: rgb(0, 119, 255);
+    font-size: 13px;
+    margin: 5px 0 0 0;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  
+  .footer-link{margin: 20px 10px 20px -15px;}
+  
+  .footer a{
+    font-size: 14px;
+    text-decoration: none;
+    text-align: left;
+    margin: 5px 10px;
+    font-weight: 300;
+    color: gray;
+    float: left;
+  }
+  
+  .footer p{
+    clear: both;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: left;
+    padding-top: 20px;
+    margin: 30px 10px 20px -5px;
+    font-weight: 300;
+    color: gray;
+    cursor: inherit;
+  }
