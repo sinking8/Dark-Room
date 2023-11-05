@@ -25,7 +25,7 @@
 <br />
 <div align="center">
   <a href="http://darkroom4.us/">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Dark Room</h3>
@@ -64,7 +64,7 @@
 
 Dark Room is an AI-driven product in social media and video streaming arenas with a mission to enable community and entertainment reach to the visually impaired sections of the population. Dark Room provides audio descriptions for posts on platforms such as LinkedIn, X, and Instagram. An additional application is when plugged into the video streaming partners Dark Room can provide audio descriptive narrations for the entire content within a fraction of the time and costs. Alongside multiple revenue generation channels owing to the strong tide of digitization, Dark Room aims to eliminate the roadblocks the visually impaired face to keep up with the behavioral shifts of the rest of the world.
 
-[![Dark Store Screen Shot][product-screenshot]](https://example.com)
+[![Dark Store Screen Shot][product-screenshot]](http://darkroom4.us/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Project Inspiration -->
