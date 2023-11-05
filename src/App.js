@@ -24,7 +24,7 @@ function App() {
   const [texts, setTexts] = useState([]);
   const synth = window.speechSynthesis;
 
-  var inx = 650;
+  var inx = 690;
   useEffect(() => {
     //Implementing the setInterval method
     const interval = setInterval(() => {
