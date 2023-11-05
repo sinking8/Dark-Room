@@ -27,6 +27,7 @@
   <a href="http://darkroom4.us/">
     <img src="logo.png" alt="Logo" width="80" height="80">
   </a>
+  [![Watch the video](https://i.stack.imgur.com/Vp2cE.png)](https://youtu.be/vt5fpE0bzSY)
 
 <h3 align="center">Dark Room</h3>
 
