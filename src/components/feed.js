@@ -6,6 +6,7 @@ import pontos from './imagens/pontos.png';
 import emoji from './imagens/emoji.png';
 import ReactPlayer from 'react-player/youtube'
 import imageToBase64 from 'image-to-base64/browser';
+import TextToSpeech from './TextToSpeech';
 
 
 function Feed(props) {
@@ -70,7 +71,7 @@ function Feed(props) {
                         <div className="publicar-comentario">
                             <img src={emoji} className="emoji" alt="emoji" />
                             <input type="text" className="comentar" placeholder="Comment" />
-                            <p className="publicar">Audio</p>
+                            <TextToSpeech text={"hello I am Gunjur"} className="publicar">Audio</TextToSpeech>
                         </div>
                     </div>
               </div>        
