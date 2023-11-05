@@ -7,33 +7,12 @@ import emoji from "./imagens/emoji.png";
 import ReactPlayer from "react-player/youtube";
 import imageToBase64 from "image-to-base64/browser";
 import TextToSpeech from "./TextToSpeech";
-import axios from "axios";
-import { useRef, useState } from 'react'
 
+import { useEffect, useRef, useState, useMemo } from "react";
 
 function Feed(props) {
-  const [baseCode, setBaseCode] = useState(" ")
-  let bit_string =  imageToBase64(props.feed) 
-    .then(
-        (response) => {
-            // console.log(response); 
-            setBaseCode(response)
-        }
-    )
-    .catch(
-        (error) => {
-            console.log(error); 
-        }
-    )
-
-  console.log("bit_string",baseCode)
-  axios
-    .post("https://flask-production-4f4a.up.railway.app/get_text", {
-      img_string: baseCode,
-    })
-    .then((res) => {
-      console.log(res.data.data["text"]);
-    });
+  const [baseCode, setBaseCode] = useState(" ");
+  const [text, setText] = useState("");
 
   if (props.value == "image") {
     return (
