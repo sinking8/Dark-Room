@@ -20,6 +20,7 @@ def get_text():
     captions = ""
     if request.method == 'POST':
         imgdata = base64.b64decode(str(request.json()['img_string']))
+        print(imgdata)
         img = Image.open(io.BytesIO(imgdata))
         caption_text = model.generate({"image":img})
         return ({'text':caption_text})
